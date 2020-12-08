@@ -1,0 +1,21 @@
+@media (max-width: 767px) {
+    .stepper{
+    display: none;
+    }
+  }
+
+  .MuiGrid-grid-sm-4{
+      max-width: 100%;
+  }
+  .MuiBox-root-188{
+    margin-left:0;
+  }
+  .MuiBox-root-17{
+      margin-left: 0;
+  }
+  .MuiBox-root-133{
+      margin-left: 0;
+  }
+  .MuiBox-root{
+    margin-left: 0;
+}

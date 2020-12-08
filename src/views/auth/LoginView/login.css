@@ -1,0 +1,92 @@
+body{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.mu-header-featured-content {
+	display: inline;
+	text-align: center;
+	width: 60%;
+}
+
+.mu-header-featured-content h1 {
+	font-size: 20px;
+	color: black;
+	font-weight: 100;
+	margin-bottom: 15px;
+}
+
+.mu-header-featured-content h1 span {
+	font-weight: 200;
+}
+
+.mu-header-featured-content p{
+	color: black;
+}
+
+.mu-app-download-area {
+	display: inline;
+	float: left;
+	margin-top: 50px;
+	width: 100%;
+}
+
+.mu-app-download-area h4 {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+.mu-apple-btn,
+.mu-google-btn,
+.mu-windows-btn {
+	border: 2px solid black;
+    border-radius: 50px;
+    color: black;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 11px 22px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.mu-apple-btn:hover,
+.mu-google-btn:hover,
+.mu-windows-btn:hover,
+.mu-apple-btn:focus,
+.mu-google-btn:focus,
+.mu-windows-btn:focus {
+	background-color: #AFEAF5;
+}
+
+.mu-apple-btn i,
+.mu-google-btn i,
+.mu-windows-btn i {
+	display: block;
+    float: left;
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 10px;
+    color: black;
+}
+
+.mu-apple-btn span,
+.mu-google-btn span,
+.mu-windows-btn span {
+	display: block;
+	float: left;
+    line-height: 24px;
+    color: black;
+}
+
+@media (max-width: 450px) {
+    .login{
+    display: none;
+    }
+  }
+  @media (min-width: 450px) {
+    .login1{
+    display: none;
+    }
+  }
